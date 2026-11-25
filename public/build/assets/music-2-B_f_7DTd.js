@@ -1,1 +1,0 @@
-import{c}from"./createLucideIcon-Bg9ejZ7X.js";const r=c("music-2",[["circle",{cx:"8",cy:"18",r:"4",key:"1fc0mg"}],["path",{d:"M12 18V2l7 4",key:"g04rme"}]]);export{r as M};
