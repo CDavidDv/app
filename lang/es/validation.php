@@ -1,0 +1,52 @@
+<?php
+
+return [
+    'array' => 'El campo :attribute no es válido.',
+    'boolean' => 'El campo :attribute debe ser verdadero o falso.',
+    'confirmed' => 'La confirmación de :attribute no coincide.',
+    'current_password' => 'La contraseña actual no es correcta.',
+    'date' => 'El campo :attribute no es una fecha válida.',
+    'email' => 'Escribe un correo electrónico válido.',
+    'exists' => 'El valor de :attribute no es válido.',
+    'file' => 'El campo :attribute debe ser un archivo.',
+    'in' => 'El valor de :attribute no es válido.',
+    'integer' => 'El campo :attribute debe ser un número.',
+    'max' => [
+        'array' => 'El campo :attribute no puede tener más de :max elementos.',
+        'file' => 'El archivo es demasiado grande (máximo :max KB).',
+        'numeric' => 'El campo :attribute no puede ser mayor que :max.',
+        'string' => 'El campo :attribute no puede tener más de :max caracteres.',
+    ],
+    'mimes' => 'El archivo debe ser de tipo: :values.',
+    'min' => [
+        'array' => 'El campo :attribute debe tener al menos :min elementos.',
+        'file' => 'El archivo debe pesar al menos :min KB.',
+        'numeric' => 'El campo :attribute debe ser al menos :min.',
+        'string' => 'El campo :attribute debe tener al menos :min caracteres.',
+    ],
+    'password' => [
+        'min' => 'La contraseña debe tener al menos :min caracteres.',
+    ],
+    'required' => 'El campo :attribute es obligatorio.',
+    'required_if' => 'El campo :attribute es obligatorio.',
+    'string' => 'El campo :attribute debe ser texto.',
+    'uploaded' => 'No se pudo subir el archivo. Inténtalo de nuevo.',
+
+    'attributes' => [
+        'name' => 'nombre',
+        'relationship' => 'relación',
+        'relationship_other' => 'relación',
+        'display_name' => 'cómo te identificará',
+        'email' => 'correo',
+        'password' => 'contraseña',
+        'current_password' => 'contraseña actual',
+        'file' => 'archivo',
+        'chunk' => 'parte del archivo',
+        'items' => 'aportaciones',
+        'celebrant_name' => 'nombre de la cumpleañera',
+        'celebrant_short_name' => 'nombre corto',
+        'birthday_password' => 'palabra secreta',
+        'age' => 'edad',
+        'size' => 'tamaño',
+    ],
+];

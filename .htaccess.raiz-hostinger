@@ -1,0 +1,8 @@
+# Úsalo SOLO si no puedes apuntar el dominio a la carpeta /public (ver README).
+# Copia este archivo como .htaccess en la raíz del proyecto subido a public_html.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Bloquea cualquier acceso directo a archivos internos (.env, storage, vendor…)
+    RewriteRule ^(\.env|\.git|storage|vendor|app|bootstrap|config|database|resources|routes|tests)(/|$) - [F,L]
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
